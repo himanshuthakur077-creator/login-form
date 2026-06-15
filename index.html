@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu">
+            <button class="menu-btn">about</button>
+            <div class="dropdown">
+                <a href="#">terms and conditions</a>            
+            <a href="#">address </a>
+        </div>
+        </div>
+        <div class="menu">
+            <button class="menu-btn">contact</button>
+
+        </div>
+    </nav>
+    
+    <div class="loginform">
+    <form id="formone" action="/action.php" style="text-align: center;" >
+        <br>
+        <h1> LOGIN FORM</h1>
+        <input type="text" placeholder="USERNAME"  >
+        <br>
+        <input type="password" placeholder="PASSWORD" >
+        <br><br>
+        <label for="101">
+        <input type="radio" value="first sem" name="sem" id="101" > first sem
+        </label>
+        <label for="102">
+        <input type="radio" value="second sem" name="sem" id="102" > second sem
+        </label>
+        <br>
+         <div class="subject-city">
+        <div class="insidearea">
+        <label>
+        <input type="checkbox" value=" physics" name="subject"> physics
+        </label>
+        <br>
+        <label>
+        <input type="checkbox" value="chemistry" name="subject"> chemistry
+        </label>
+        <br>
+        <label>
+         <input type="checkbox" value="maths" name="subject"> maths 
+        </label>
+        <br>
+        <label>
+        <input type="checkbox" value="bio" name="subject" > bio
+        </label>
+        <br><br>
+        </div>
+        <div class="options">
+        <select name="city" >
+            <option value="delhi" id="0011">delhi</option>
+            <option value="pune" id="0022">pune</option>
+            <option value="banglore" id="0033">banglore</option>
+            <option value="mumbai" id="0044">mumbai</option>
+            <option value="chandigarh" id="0055">chandigarh</option>
+            <option value="gurgaon" id="0066">gurgaon</option>
+        </select>
+        </div>
+        </div>
+        <br>
+        <button  type="submit" >submit</button>
+        <br><br>
+        <textarea name="feedback" placeholder="please give us feedback" rows="8" cols="25" ></textarea>
+        
+    </form>
+</div>
+</body>
+</html> 

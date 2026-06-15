@@ -1,0 +1,157 @@
+body{
+    background-image: url(images/b243a29b10bc9e96c9d4d4485136bf9a\ \(1\).jpg);
+    color: black;
+    min-height: 100vh;
+
+}
+h1{
+    text-align: center;
+    color: rgb(50, 100, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.loginform{
+    color: darkolivegreen;
+    text-align: center;
+    font-weight:  200;
+    width:400px;
+    max-width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-image: url(images/images.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+   
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.insidearea{
+    color: darkslategrey;
+    text-align:left;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input[type="text"],
+     [type="password"]{
+     border-radius: 10% 10% 10% 15%;
+     font-family: Arial, Helvetica, sans-serif;
+     border: none;
+     color: rgb(5, 5, 5);
+     font-size: 14px;
+     padding: 5px 10px;
+}
+select{
+     color: rgb(15, 48, 1);
+     background-image: url(images/images.jpeg);
+     border-radius: 10% 20% 10% 20%;
+     box-shadow: 60px -16px 10px teal;;
+     width: 80px;
+     height: 30px;
+     font-size: 14px;
+    
+    
+}
+textarea{
+    background-image: url(images/images.jpeg);
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    font-size:20px;
+    gap:20px;
+    width: 100%;
+}
+.menu-btn{
+    cursor: pointer;
+    background-color:darkslategrey;
+    font-size: 15px;
+    padding: 10px 10px ;
+    border: none;
+    color: wheat;
+    border-radius: 10% 20% 10% 20%;
+}
+.menu-btn:hover{
+    background-color:darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 10% 30% 20% 10%;
+
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color:darkslategray;
+    min-width: 150px;
+    border-radius: 20% 10% 20% 10%;
+    box-shadow:10px 5px 5px rgb(3, 47, 1) ;
+}
+.dropdown a{
+    display: block;
+    padding:10px 16px ;
+    color: beige;
+    text-decoration: none;
+}
+.dropdown a:hover{
+    background-color:transparent;
+     z-index: 999;
+}
+.menu:hover .dropdown{
+    display:block;
+}
+.menu{
+    position: relative;
+}
+button{
+   background-color: darkslategray;
+    color: black;
+    width: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10% 15% 10% 15%;
+   padding: 12px 12px;
+   cursor: pointer;
+}
+button:hover{
+    background-color: darkslategray;
+    color: wheat;
+}
+.subject-city{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.options{
+    display: flex;
+    align-items: center;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+    outline: 2px solid darkslategray;
+    box-shadow: 0 0 8px teal;
+    border-radius: 8px;
+    width: 200px;
+    max-width: 80%;
+    height: 35px;
+    padding: 5px 10px;
+    
+}
+input[type="text"]:hover, 
+input[type="password"]:hover {
+    width: 250px;
+    height: 35px;
+    box-shadow: 0 0 10px teal;
+    transition: all 0.3s ease;
+}
+input[type="text"]:focus, 
+input[type="password"]:focus {
+    width: 320px;
+    height: 45px;
+    outline: none;
+    box-shadow: 0 0 15px teal;
+}
